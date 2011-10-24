@@ -1,0 +1,502 @@
+/*
+ * Basic styles
+ */
+body {
+	background-color: #FDFDFD;
+}
+
+.panel {
+	font-size: 28px;
+	line-height: 36px;
+}
+
+.panel-title {
+  margin-left: 8px;
+  margin-bottom: 8px;
+	font-size: 32px;
+  font-weight: bold;
+}
+
+.panel-text {
+  margin-left: 8px;
+}
+
+/*
+ * ToC
+ */
+.toc-title {
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: bold;
+}
+
+.toc-subtitle {
+	font-size: 16px;
+	line-height: 22px;
+	color:#5F5F5F;	
+}
+
+/*
+ * Cover
+ */
+.cover-panel {
+}
+
+.teaser {
+	background: #0092BF;
+	clear:both;
+	padding-right:16px;
+	text-align: right;
+	-webkit-box-shadow: 5px 5px 11px #000000;	
+}
+
+.teaser-heading-1{
+	text-transform: uppercase;
+	font-size: 26px;
+	line-height: 32px;
+	font-weight: bold;
+	color:white;
+	display:block;
+}
+
+.teaser-heading-2{
+	display:block;
+	font-size: 22px;
+	line-height: 28px;
+	text-transform: uppercase;
+	color:white;
+}
+
+#inovex-teaser{
+	width:480px;
+}
+#android-teaser{
+	width:340px;
+}
+#portfolio-teaser{
+	width:340px;
+}
+
+/*
+ * Keynote
+ */
+.keynote-panel {
+}
+
+.keynote-title {
+	font-size: 28px;
+  margin-bottom: 8px;
+}
+
+.keynote-text {
+	font-size: 20px;
+	line-height: 36px;
+}
+
+.keynote-column {
+	font-size: 23px;
+	line-height: 30px;
+}
+.keynote-column div {
+  margin-bottom: 12px;
+}
+
+.keynote-content-header {
+  font-size: 26px;
+  font-weight: bold;
+  padding-left: 62px;
+  margin-bottom: 24px !important;
+}
+
+.keynote-content-line {
+  height: 60px;
+}
+
+#keynote-image {
+  margin: 32px 8px 8px 50px;
+}
+
+#keynote-title-box {
+  margin-top: 40px;
+  padding: 10px;
+}
+#keynote-text-column-1 {
+  font-weight: bold;
+  margin-left: 8px;
+}
+#keynote-text-column-2 {
+  margin-left: 32px;
+}
+
+/*android browser chrome reduces available screen height, so a smaller margins are needed */
+@media screen and (max-height:767px){
+	#keynote-content-box {	
+	  margin: 20px 78px 44px 56px;
+	  padding: 11px;
+	}	
+}
+
+@media screen and (min-height:768px){
+	#keynote-content-box {	
+	  margin: 30px 78px 74px 56px;
+	  padding: 16px;
+	}	
+}
+
+#keynote-content {
+  margin-left: 8px;
+}
+
+/* Portrait */
+@media screen and (orientation:portrait) {
+  .keynote-title {
+    font-size: 24px;
+  }
+  .keynote-text {
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .keynote-column {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .keynote-content-header {
+    font-size: 20px;
+  }
+  #keynote-text-column-2 {
+    margin-left: 16px;
+  }
+}
+
+/*
+ * Charts
+ */
+.chart-panel {
+  font-size: 16px;
+  margin-top: 8px;
+  margin-bottom: 40px;
+  padding: 0px 8px 36px 8px;
+}
+
+.chart-footer {
+  margin: 0px 18px 24px 72px;
+}
+
+.chart-footer-text {
+	font-size: 14px;
+	line-height: 18px;
+  	margin-left: 8px;
+}
+
+/*
+ * Smartphone chart
+ */
+.smartphone-panel {
+}
+
+.smartphone-title {
+  padding-top: 8px;
+  padding-left: 8px;
+}
+
+/*
+ * Browser chart
+ */
+.browser-panel {
+}
+
+.browser-title {
+  padding-top: 8px;
+  padding-left: 8px;
+}
+
+/*
+ * Portfolio
+ */
+.portfolio-title {
+  font-size: 30px;
+  line-height:34px;
+  font-weight: bold;	
+}
+
+.portfolio-subtitle {
+  font-size: 20px;
+  line-height:24px;
+  font-weight: bold;
+  margin-top:10px;	
+}
+
+.portfolio-summary-item {
+  font-size: 24px;
+  line-height:36px;
+  margin-bottom: 16px;
+}
+
+.portfolio-details {
+  font-size: 20px;
+  line-height:24px;	
+}
+
+.background-panel{
+  margin:15px;
+  border-radius: 15px;
+  background-color: white;
+  -webkit-box-shadow: 5px 5px 11px #000000;
+}
+
+/* Portrait */
+@media screen and (orientation:portrait) {
+  .portfolio-title {
+    font-size: 24px;
+    line-height:26px;
+  }
+  .portfolio-subtitle {
+    font-size: 18px;
+    line-height:18px;
+  }
+  .portfolio-summary-item {
+    font-size: 22px;
+    line-height:28px;
+  }
+  .portfolio-details {
+    font-size: 20px;
+    line-height:22px;	
+  }
+}
+
+/*
+ * Dashboard
+ */
+ 
+ 
+@media screen and (min-height:768px){
+	.portfolio-title {
+	  margin-top:30px;
+	  padding-top:20px;
+	}
+}
+@media screen and (max-height:767px){
+	.portfolio-title {
+	  margin-top:30px;
+	  padding-top:5px;
+	}
+}
+
+.dashboard-summary-panel{
+  margin-top:30px;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: white;
+  -webkit-box-shadow: 5px 5px 11px #000000;	
+}
+
+#dashboard-image-1 {
+  margin-left: 16px;
+  margin-top: 8px;
+}
+
+#dashboard-image-2 {
+  margin-right: 16px;
+}
+
+/*
+ * Zabbix
+ */
+
+.zabbix-app-summary-panel {
+  margin-top:30px;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: white;
+  -webkit-box-shadow: 5px 5px 11px #000000;  
+}
+
+#zabbix-image-1 {
+  margin-left: 16px;
+  margin-top: -80px;
+}
+
+#zabbix-image-2 {
+  margin-right: 8px;
+  margin-top: 8px;
+}
+
+/*
+ * Inovex App
+ */
+
+.inovex-app-summary-panel {
+  margin-top:30px;
+  margin-left: 16px;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: white;
+  -webkit-box-shadow: 5px 5px 11px #000000;
+}
+
+#inovex-app-image-1 {
+  margin-left: 32px;
+  margin-top: 32px;
+}
+
+#inovex-app-image-2 {
+  margin-left: 32px;
+  margin-top: 32px;
+}
+
+@media screen and (orientation:portrait) {
+  #inovex-app-image-1 {
+    margin-top: 64px;
+  }
+  #inovex-app-image-2 {
+    margin-top: 64px;
+  }
+}
+
+/*
+ * OCR App
+ */
+
+.ocr-app-summary-panel{
+  margin-top: 8px;
+  margin-left: 16px;
+  margin-bottom: 8px;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: white;
+  -webkit-box-shadow: 5px 5px 11px #000000;
+}
+
+#ocr-app-image-1 {
+  margin-left: 40px;
+  margin-top: 8px;
+}
+
+#ocr-app-image-2 {
+  margin-left: 64px;
+  margin-top: 16px;
+}
+
+#ocr-app-image-3 {
+  margin-left: 72px;
+  margin-top: 16px;
+}
+
+/* Portrait */
+@media screen and (orientation:portrait) {
+  #ocr-app-image-2 {
+    margin-top: 64px;
+  }
+  #ocr-app-image-3 {
+    margin-top: 64px;
+  }
+}
+
+/*
+ * overridden
+ */
+
+/*http://www.senchatouchbits.com/6/fixing-flickering-of-animations-in-phonegap.html*/
+/*http://imwill.com/flickering-sencha-touch-animations-android/*/
+.x-panel {
+	-webkit-perspective: 1000;	
+    -webkit-backface-visibility: hidden;
+}
+/* scale panel-body to panel size */
+.x-panel-body {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.x-toolbar-title {
+	color: white !important;
+  text-align: left;
+  font-size: 12px;
+	line-height: 18px;
+  margin: 4px;
+}
+
+/*
+ * Global Images
+ */
+
+/* Landscape */
+@media screen and (orientation:landscape) {
+  .loading-image {
+    margin-left: 496px;
+    margin-top: 366px;
+  }
+	.cover-background {
+		background-repeat:no-repeat;
+		-webkit-background-size: cover;
+		background-image:url(../images/cover_1024_768.jpg);
+	}
+	.keynote-background {
+		background-repeat:no-repeat;
+		-webkit-background-size: cover;
+		background-image:url(../images/keynote_1024_768.jpg);
+	}
+	
+	.dashboard-background {
+		background-repeat:no-repeat;
+		-webkit-background-size: cover;
+		background-image:url(../images/background_1024_768_1.jpg);
+	}
+	.zabbix-background{
+		background-repeat:no-repeat;
+		-webkit-background-size: cover;
+		background-image:url(../images/background_1024_768_2.jpg);	 
+	}
+	.inovex-app-background {
+		background-repeat:no-repeat;
+		-webkit-background-size: cover;
+		background-image:url(../images/background_1024_768_3.jpg);
+	}
+	.ocr-app-background {
+		background-repeat:no-repeat;
+		-webkit-background-size: cover;
+		background-image:url(../images/background_1024_768_4.jpg);
+	}
+  
+}
+
+/* Portrait */
+@media screen and (orientation:portrait) {
+  .loading-image {
+    margin-left: 366px;
+    margin-top: 496px;
+  }
+  	.cover-background {
+		background-repeat:no-repeat;
+		-webkit-background-size: cover;
+		background-position:center;
+		background-image:url(../images/cover_768_1024.jpg);
+	}
+	.keynote-background {
+		background-repeat:no-repeat;
+		-webkit-background-size: cover;
+		background-position:center;
+		background-image:url(../images/keynote_768_1024.jpg);
+	}
+	
+	.dashboard-background {
+		background-repeat:no-repeat;
+		-webkit-background-size: cover;
+		background-image:url(../images/background_768_1024_1.jpg);
+	}
+	.zabbix-background{
+		background-repeat:no-repeat;
+		-webkit-background-size: cover;		
+		background-image:url(../images/background_768_1024_2.jpg);	 
+	}
+	.inovex-app-background {
+		background-repeat:no-repeat;
+		-webkit-background-size: cover;
+		background-image:url(../images/background_768_1024_3.jpg);
+	}
+	.ocr-app-background {
+		background-repeat:no-repeat;
+		-webkit-background-size: cover;		
+		background-image:url(../images/background_768_1024_4.jpg);
+	}
+}
